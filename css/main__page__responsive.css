@@ -1,0 +1,144 @@
+@media(max-width: 1250px){
+    .container{
+        max-width: 1000px;
+    }
+    .header__logo, 
+    .about__first, 
+    .about__second{
+        margin-left: 10px;
+    }
+    .security__card__third{
+        margin-top: 20px;
+    }
+    .about__image__left{
+        width: 600px;
+    }
+    .header__socials img{
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media(max-width: 1000px){
+    .container{
+        max-width: 760px;
+    }
+    .security__card__second{
+        margin-top: 20px !important;
+    }
+    .about__first, .about__second{
+        text-align: center;
+        display: block;
+    }
+    .about__image__right{
+        margin-top: 30px;
+    }
+    .about__second{
+        display: block;
+    }
+    .header *{
+        font-size: 14px ;
+    }
+    .header__logo__link{
+        margin-left: 20px;
+    }
+    .header__right{
+        margin-right: 20px;
+    }
+    .language__changer{
+        margin: 0 35px;
+    }
+    .language__changer img{
+        width: 14px;
+        height: 14px;
+    }
+    .header__socials img{
+        margin-left: -10px;
+        width: 14px;
+        height: 14px;
+    }
+    .form__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: none;
+        height: 670px;
+    }
+
+    .form__right{
+        align-items: center;
+    }
+}
+
+@media(max-width: 760px){
+    .lang__rus__link{
+        margin-left: -16px !important;
+    }
+    .container{
+        max-width: 360px;
+    }
+    .header__logo__link{
+        margin-top: 20px;
+    }
+    .security p, .tools p{
+        width: 350px !important;
+    }
+    .security__card__second{
+        margin: 20px 0px !important;
+    }
+    .tools img{
+        margin-top: 25px;
+        margin-left: -50px;
+    }
+    .header__logo{
+        width: 100px;
+        height: 23px;
+    }
+    .header__right{
+        margin-left: 25px;
+        height: 145px;
+        margin-top: -20px;
+    }
+    .about__text__left h2, .about__text__right h2{
+        font-size: 30px;
+    }
+    .about__first img, .about__second img{
+        width: 300px;
+    }
+    .about__text__right p, .about__text__right h2{
+        margin-left: 0;
+    }
+    .header{
+        height: 150px;
+    }
+    span[class*="security__card"]{
+        width: 320px;
+    }
+    .header__container{
+        display: flex;
+        flex-direction: column;
+        height: 160px !important;
+    }
+    .header *{
+        font-size: 12px ;
+    }
+
+    .language__changer{
+        margin: 20px 35px 0px 35px;
+    }
+    .language__changer img{
+        width: 12px;
+        height: 12px;
+    }
+    .header__socials{
+        margin-left: 80px;
+    }
+
+    .header__socials img{
+        margin-left: -10px;
+        width: 12px;
+        height: 12px;
+    } 
+
+    
+}
